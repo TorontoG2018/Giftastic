@@ -1,0 +1,17 @@
+body {background-color: rgba(204, 105, 70, 0.835);}
+
+.gallows {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(90, 87, 61);
+    padding: 10px;
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+.alphabet{
+  width: 500px;
+  text-align: center;
+  align-items: center;
+}

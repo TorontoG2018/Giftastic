@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gyftastic by George Kalashnikov</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   
+        <style type="text/css">
+          button,
+          div,
+          form,
+          input {
+            margin: 10px;
+          }
+        </style>
+  
+</head>
+
+
+
+
+
+
+<body>
+        <div id="buttons-view"></div>
+
+        <form id="movie-form">
+          <label for="movie-input">Add a gif</label>
+          <input type="text" id="gif-input">
+          <br>
+    
+          <!-- Button triggers new movie to be added -->
+          <input id="add-gif" type="submit" value="Add a gif">
+        </form>
+    
+    
+    
+    
+      <button data-animal="cat">cat</button>
+      <button data-animal="dog">dog</button>
+      <button data-animal="bird">bird</button>
+      <button data-animal="monkey">monkey</button>
+      <div id="gifs-appear-here">
+      </div>
+                               
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/logic.js"></script>     
+</body>
+</html>
